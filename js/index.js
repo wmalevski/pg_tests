@@ -36,7 +36,7 @@ var app = {
         app.receivedEvent('deviceready');
     },
     tokenHandler:function(msg) {
-        console.log("Token Handler " + msg);
+        alert("Token Handler " + msg);
     },
     errorHandler:function(error) {
         console.log("Error Handler  " + error);
