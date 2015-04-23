@@ -22,6 +22,8 @@
   <feature name="InAppBrowser">
       <param name="ios-package" value="CDVInAppBrowser" />
   </feature>
+  <gap:plugin name="org.apache.cordova.device"  />
+  <gap:plugin name="org.apache.cordova.media"  />
   <gap:plugin name="org.apache.cordova.inappbrowser"  />
   <gap:plugin name="com.phonegap.plugins.pushplugin"/>
 </widget>
